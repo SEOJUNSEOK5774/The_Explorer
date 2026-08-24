@@ -1,0 +1,27 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+namespace PlayerGameplayTags
+{
+	/** Input Tags **/
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Move)
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Look)
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Jump)
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Dash);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_EquipGun);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_UnequipGun);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_LightAttackGun);
+
+	/** Player tags **/
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Equip_Gun);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Unequip_Gun);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_LightAttack_Gun);
+
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Weapon_Gun);
+
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Equip_Gun);
+	GAME_EXPLORE_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Unequip_Gun);
+}
